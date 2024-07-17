@@ -114,10 +114,6 @@ nav.navbar {
   z-index: 9999;
   transition: 0.32s ease-in-out;
 }
-nav.navbar.scrolled {
-  padding: 0px 0;
-  background-color: #121212;
-}
 nav.navbar a.navbar-brand {
   width: 9%;
 }
@@ -129,8 +125,8 @@ nav.navbar .navbar-nav .navlink {
   font-size: 18px;
   opacity: 0.75;
 }
-nav.navbar .navbar-nav .navlink:hover,
-nav.navbar .navbar-nav .navlink.active {
+nav.navbar .navbar-nav .nav-link:hover,
+nav.navbar .navbar-nav .nav-link.active {
   color: #fff !important;
   opacity: 1;
 }

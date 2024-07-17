@@ -19,8 +19,12 @@ export default function NavigationBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <NavLink to="/skills">Skills</NavLink>
-            <NavLink to="/projects">Projects</NavLink>
+            <NavLink to="/skills" className="nav-link navbar-link">
+              Skills
+            </NavLink>
+            <NavLink to="/projects" className="nav-link navbar-link">
+              Projects
+            </NavLink>
           </Nav>
           <span className="navbar-test">
             <div className="social-icon">
