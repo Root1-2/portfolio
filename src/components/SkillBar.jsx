@@ -5,6 +5,15 @@ import "react-multi-carousel/lib/styles.css";
 import Skill from "./Skill";
 import reactImg from "../assets/img/react.svg";
 import js from "../assets/img/js.svg";
+import php from "../assets/img/PHP.svg";
+import html from "../assets/img/HTML5.svg";
+import css from "../assets/img/css.svg";
+import bootstrap from "../assets/img/bootstrap.svg";
+import mysql from "../assets/img/mysql.svg";
+import flutter from "../assets/img/flutter.svg";
+import dart from "../assets/img/dart.svg";
+import cplus from "../assets/img/c++.svg";
+import python from "../assets/img/python.svg";
 
 function SkillBar() {
   const responsive = {
@@ -28,8 +37,7 @@ function SkillBar() {
 
   return (
     <div className={styles.body}>
-      <h1>Skills</h1>
-      <h4>Lorem Ipsum</h4>
+      <h1>Languages</h1>
       <div className={styles.skillbar}>
         <Container>
           <Row>
@@ -42,13 +50,15 @@ function SkillBar() {
                 >
                   <Skill path={reactImg} title="React" />
                   <Skill path={js} title="JavaScript" />
-                  <Skill path={""} title="PHP" />
-                  <Skill path="" title="HTML" />
-                  <Skill path="" title="CSS" />
-                  <Skill path="" title="MYSQL" />
-                  <Skill path="" title="Bootstrap" />
-                  <Skill path="" title="Bootstrap" />
-                  <Skill path="" title="Bootstrap" />
+                  <Skill path={php} title="PHP" />
+                  <Skill path={mysql} title="MYSQL" />
+                  <Skill path={html} title="HTML" />
+                  <Skill path={css} title="CSS" />
+                  <Skill path={bootstrap} title="Bootstrap" />
+                  <Skill path={flutter} title="Flutter" />
+                  <Skill path={dart} title="Dart" />
+                  <Skill path={cplus} title="C++" />
+                  <Skill path={python} title="Python" />
                 </Carousel>
               </div>
             </Col>
