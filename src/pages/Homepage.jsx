@@ -2,9 +2,9 @@ import NavigationBar from "../components/NavigationBar";
 
 function Homepage() {
   return (
-    <div>
+    <div className="App">
       <NavigationBar />
-      <h1>Homepage</h1>
+      {/* <h1>Homepage</h1> */}
     </div>
   );
 }

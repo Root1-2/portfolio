@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import NavigationBar from "./components/NavigationBar";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 import Homepage from "./pages/Homepage";
 import Skills from "./pages/Skills";
@@ -9,7 +10,7 @@ import NotFound from "./pages/NotFound";
 
 export default function App() {
   return (
-    <div>
+    <div className="App">
       {/* <NavigationBar /> */}
 
       <BrowserRouter>
