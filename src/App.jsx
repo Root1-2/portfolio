@@ -7,6 +7,7 @@ import Homepage from "./pages/Homepage";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import NotFound from "./pages/NotFound";
+import Certifications from "./pages/Certifications";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
           <Route path="/" element={<Homepage />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/certifications" element={<Certifications />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

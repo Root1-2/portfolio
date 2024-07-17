@@ -1,10 +1,11 @@
 import NavigationBar from "../components/NavigationBar";
+import HomeBanner from "../components/HomeBanner";
 
 function Homepage() {
   return (
     <div className="App">
       <NavigationBar />
-      {/* <h1>Homepage</h1> */}
+      <HomeBanner />
     </div>
   );
 }
