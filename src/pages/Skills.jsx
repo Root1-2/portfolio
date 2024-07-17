@@ -1,10 +1,11 @@
 import NavigationBar from "../components/NavigationBar";
+import SkillBar from "../components/SkillBar";
 
 function Skills() {
   return (
     <div>
       <NavigationBar />
-      <h1>Skills</h1>
+      <SkillBar />
     </div>
   );
 }

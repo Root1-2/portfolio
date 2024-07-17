@@ -3,11 +3,9 @@
 }
 
 .navbar {
-  /* display: flex;
-  justify-content: center; */
+  margin-left: 500px;
   position: fixed;
   background-color: transparent;
-  /* z-index: 999999; */
 }
 
 .span {
