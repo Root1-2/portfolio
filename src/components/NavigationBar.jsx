@@ -43,7 +43,7 @@ export default function NavigationBar() {
           <span className="navbar-test">
             <div className="social-icon">
               <a href="#">
-                <img src={""} alt=""></img>
+                <img src={"NavIcon1"} alt=""></img>
               </a>
               <a href="#">
                 <img src={""} alt=""></img>
