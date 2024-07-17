@@ -12,8 +12,6 @@ import Certifications from "./pages/Certifications";
 export default function App() {
   return (
     <div className="App">
-      {/* <NavigationBar /> */}
-
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />
