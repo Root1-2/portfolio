@@ -8,15 +8,18 @@ import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import NotFound from "./pages/NotFound";
 import Certifications from "./pages/Certifications";
+import Project from "./pages/Project";
 
 export default function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/projects" element={<Projects />} />
+          <Route index element={<Homepage />} />
+          <Route path="skills" element={<Skills />} />
+          <Route path="projects" element={<Projects />}>
+            <Route path="project" element={<Project />} />
+          </Route>
           <Route path="/certifications" element={<Certifications />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

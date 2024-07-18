@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+// import navIcon3 from "../assets/img/nav-icon3.svg";
 
 export default function NavigationBar() {
   // const [activeLink, setActiveLink] = useState("home");
@@ -27,8 +27,8 @@ export default function NavigationBar() {
             <NavLink to="/projects" className="nav-link navbar-link">
               <span className={styles.span}>Project</span>
             </NavLink>
-            <NavLink to="/certifications" className="nav-link navbar-link">
-              <span className={styles.span}>Certification</span>
+            <NavLink to="/projects/project" className="nav-link navbar-link">
+              <span className={styles.span}>Individuals</span>
             </NavLink>
           </Nav>
           <span className="navbar-test">
