@@ -1,10 +1,11 @@
 import NavigationBar from "../components/NavigationBar";
+import ProjectsBody from "../components/ProjectsBody";
 
 function Projects() {
   return (
     <div>
       <NavigationBar />
-      <h1>Projects</h1>
+      <ProjectsBody />
     </div>
   );
 }

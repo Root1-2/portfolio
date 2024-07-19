@@ -17,9 +17,8 @@ export default function App() {
         <Routes>
           <Route index element={<Homepage />} />
           <Route path="skills" element={<Skills />} />
-          <Route path="projects" element={<Projects />}>
-            <Route path="project" element={<Project />} />
-          </Route>
+          <Route path="projects" element={<Projects />} />
+          <Route path="project/:projectID" element={<Project />} />
           <Route path="/certifications" element={<Certifications />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
