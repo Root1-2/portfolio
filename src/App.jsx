@@ -8,7 +8,7 @@ import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import NotFound from "./pages/NotFound";
 import Certifications from "./pages/Certifications";
-import Project from "./pages/Project";
+// import Project from "./pages/Project";
 
 export default function App() {
   return (
@@ -18,7 +18,7 @@ export default function App() {
           <Route index element={<Homepage />} />
           <Route path="skills" element={<Skills />} />
           <Route path="projects" element={<Projects />} />
-          <Route path="project/:projectID" element={<Project />} />
+          {/* <Route path="project/:projectID" element={<Project />} /> */}
           <Route path="/certifications" element={<Certifications />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

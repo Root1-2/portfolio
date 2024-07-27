@@ -1,13 +1,13 @@
-import NavigationBar from "../components/NavigationBar";
-import ProjectBody from "../components/ProjectBody";
+// import NavigationBar from "../components/NavigationBar";
+// import ProjectBody from "../components/ProjectBody";
 
-function Project() {
-  return (
-    <div>
-      <NavigationBar />
-      <ProjectBody />
-    </div>
-  );
-}
+// function Project() {
+//   return (
+//     <div>
+//       <NavigationBar />
+//       <ProjectBody />
+//     </div>
+//   );
+// }
 
-export default Project;
+// export default Project;
